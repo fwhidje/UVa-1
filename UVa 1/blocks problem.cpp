@@ -1,3 +1,7 @@
+/*
+Run the main_*_program and supply a (.txt) file.
+Output is an "output.txt"-file.
+*/
 #include <iostream>
 #include <map>
 #include <fstream>
@@ -6,6 +10,7 @@
 #include <vector>
 #include <algorithm>
 #include <iterator>
+#include <string>
 using namespace::std;
 
 vector<vector<int>> generate_initial(int i) {
@@ -90,7 +95,7 @@ void call_func(string s, int a,int b, vector<vector<int>>& vec) {
 	funcmap[s](a, b, vec);
 }
 
-void program_main(const char* filename) {
+void maint_blocks_program(const string& filename) {
 	ifstream file(filename);
 	if (!file) return;
 
@@ -107,8 +112,4 @@ void program_main(const char* filename) {
 	}
 }
 
-/*int main() {
-	program_main("input.txt");
-	return 0;
-}*/
 

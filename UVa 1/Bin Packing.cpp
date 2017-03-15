@@ -1,3 +1,7 @@
+/*
+Run the main_*_program and supply a (.txt) file.
+Output is an "output.txt"-file.
+*/
 #include <vector>
 #include <iostream>
 #include <fstream>
@@ -66,7 +70,7 @@ pair<string,int> find_best_ordening(const vector<unsigned int>& bins) {
 	return{ code, ret[3] };
 }
 
-void main_program(const string& filename) {
+void main_Bin_program(const string& filename) {
 	vector<unsigned int> work;
 	pair<string, int> out;
 

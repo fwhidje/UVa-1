@@ -1,3 +1,7 @@
+/*
+Run the main_*_program and supply a (.txt) file.
+Output is an "output.txt"-file.
+*/
 #include <vector>
 #include <string>
 #include <list>
