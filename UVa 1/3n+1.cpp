@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace::std;
-
+//somethingelse
 /*Past 3n+1 toe op 1 integer. Returnt lengte van langste cycle.*/
 int cycle_length(int i) {
 	int ctr = 1;
